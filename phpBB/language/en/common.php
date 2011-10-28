@@ -466,6 +466,12 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Private messages',
 	'PRIVATE_MESSAGING'		=> 'Private messaging',
 	'PROFILE'				=> 'User Control Panel',
+	'PROSILVER_BUTTON_LOCKED'		=> '<strong>Locked</strong>',
+	'PROSILVER_BUTTON_PM_FORWARD'	=> '<strong>Forward</strong>',
+	'PROSILVER_BUTTON_PM_NEW'		=> 'New<strong>pm</strong>',
+	'PROSILVER_BUTTON_PM_REPLY'		=> 'Send<strong>reply</strong>',
+	'PROSILVER_BUTTON_TOPIC_NEW'	=> 'New<strong>topic</strong>',
+	'PROSILVER_BUTTON_TOPIC_REPLY'	=> 'Post<strong>reply</strong>',
 
 	'READING_FORUM'				=> 'Viewing topics in %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Reading global announcement',
