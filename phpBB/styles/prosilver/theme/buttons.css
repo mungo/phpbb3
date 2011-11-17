@@ -39,7 +39,7 @@
 	text-transform: uppercase;
 }
 
-.buttons div span			{
+.buttons div span {
 	cursor: pointer;
 	display: block;
 	height: 100%;
@@ -155,11 +155,17 @@ ul.profile-icons li a {
 	text-decoration: none;
 }
 
+ul.profile-icons li a span span.text {
+	margin: 0;
+	line-height: 20px;
+	padding: 1px 0 0 0;
+	background: none;
+}
+
 ul.profile-icons li a span {
 	cursor: pointer;
 	display: block;
 	height: 100%;
-	line-height: 21px; /* height+1px to fix a rounding issue with the font-size/line-height on Browsers */
 	margin: 0 5px 0 6px; /* left and right background */
 	padding: 0 5px 0 3px;
 	background-image: url("./images/buttons_bg.png");
@@ -232,7 +238,7 @@ ul.profile-icons li.info-icon, ul.profile-icons li.report-icon	{ margin: 0 3px 0
 
 
 ul.contact-icons {
-	padding-top: 10px;
+	margin-top: 10px;
 	list-style: none;
 }
 
@@ -240,10 +246,11 @@ ul.contact-icons li {
 	float: left;
 	margin: 0 3px 3px 0;
 	font-family: 'DroidSansBold', Arial, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 8px;
 	text-transform: uppercase;
 	height: 20px;
 	min-width: 20px;
+	line-height: 100%;
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: 100% -40px;
@@ -269,16 +276,12 @@ ul.contact-icons li a span {
 	cursor: pointer;
 	display: block;
 	height: 100%;
-	line-height: 21px; /* height+1px to fix a rounding issue with the font-size/line-height on Browsers */
+	line-height: 20px;
 	margin: 0 4px 0 4px; /* left and right background */
-	padding: 0 0 0 1px;
+	padding: 0;
 	background-image: url("./images/buttons_bg.png");
 	background-position: 50% -90px;
 	background-repeat: repeat-x;
-}
-
-.pm-panel-message ul.contact-icons li a span {
-	line-height: 22px; /* height+2px to fix a rounding issue with the font-size/line-height on Browsers */
 }
 
 ul.contact-icons li a span span {
