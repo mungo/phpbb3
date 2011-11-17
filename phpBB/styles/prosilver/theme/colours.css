@@ -662,12 +662,10 @@ Colours and backgrounds for buttons.css
 
 /* Big button images */
 .buttons div a,
-ul.profile-icons li.no-icon a,
-ul.profile-icons li.edit-icon a,
-ul.profile-icons li.quote-icon a { color: #D31141; }
+ul.profile-icons li a { color: #D31141; }
 
-ul.profile-icons li.pm-icon a * { color: #253f61; }
-ul.profile-icons li.pm-icon a:hover * { color: #d53057; }
+ul.contact-icons li.pm-icon a * { color: #253f61; }
+ul.contact-icons li.pm-icon a:hover * { color: #d53057; }
 
 
 a.print {
@@ -694,21 +692,11 @@ a.sendemail {
 .icon-pages						{ background-image: url("./images/icon_pages.gif"); }
 .icon-search					{ background-image: url("./images/icon_search.gif"); }
 
-/* Profile & navigation icons */
-.email-icon, .email-icon a		{ background-image: url("./images/icon_contact_email.gif"); }
-.aim-icon, .aim-icon a			{ background-image: url("./images/icon_contact_aim.gif"); }
-.yahoo-icon, .yahoo-icon a		{ background-image: url("./images/icon_contact_yahoo.gif"); }
-.web-icon, .web-icon a			{ background-image: url("./images/icon_contact_www.gif"); }
-.msnm-icon, .msnm-icon a			{ background-image: url("./images/icon_contact_msnm.gif"); }
-.icq-icon, .icq-icon a			{ background-image: url("./images/icon_contact_icq.gif"); }
-.jabber-icon, .jabber-icon a		{ background-image: url("./images/icon_contact_jabber.gif"); }
-
-
 /* Moderator icons */
-.report-icon, .report-icon a		{ background-image: url("./images/icon_post_report.gif"); }
-.delete-icon, .delete-icon a		{ background-image: url("./images/icon_post_delete.gif"); }
-.info-icon, .info-icon a			{ background-image: url("./images/icon_post_info.gif"); }
-.warn-icon, .warn-icon a			{ background-image: url("./images/icon_user_warn.gif"); } /* Need updated warn icon */
+.report-icon, .report-icon a		{ background-image: url("./images/icon_post_report.gif") !important; }
+.delete-icon, .delete-icon a		{ background-image: url("./images/icon_post_delete.gif") !important; }
+.info-icon, .info-icon a			{ background-image: url("./images/icon_post_info.gif") !important; }
+.warn-icon, .warn-icon a			{ background-image: url("./images/icon_user_warn.gif") !important; } /* Need updated warn icon */
 
 /* Forum icons & Topic icons */
 .global_read													{ background-image: url("./images/announce_read.gif"); }
